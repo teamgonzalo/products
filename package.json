@@ -1,0 +1,14 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^17.1.0",
+    "nodemon": "2.0.14",
+    "pg": "^8.7.1"
+  }
+}
