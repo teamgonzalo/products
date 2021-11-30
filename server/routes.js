@@ -1,7 +1,7 @@
 var router = require("express").Router();
 var pg = require("pg");
 
-var connectionString = "postgres://jonathanforcherio:secret@localhost:5432/sdc";
+var connectionString = "postgres://postgres@18.216.155.43:5432/sdc";
 
 var pgClient = new pg.Client(connectionString);
 pgClient.connect();
